@@ -10,3 +10,5 @@ Array.infinitySeries(100).plot
 Pbind( \note, Pinf()).play;
 
 Pbind( \note, Pinf(5, 17)).play;
+
+Pbind( \note, Pinf(3, 1) * 1/2 + 12, \dur, Pinf(3, 1).abs * 0.1).play;
